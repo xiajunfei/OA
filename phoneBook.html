@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全速oa展</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"  />
+		<link rel="stylesheet" type="text/css" href="css/companyAd.css"  />
+		<link rel="stylesheet" href="js/lib/pagination.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerContainer clearfix">
+				<div class="headerContainerImg"></div>
+				<div class="headerContainerPosition">
+					<ul class="headerContainerUl">
+						<li class="currentNode"><a href="##">首页</a></li>
+						<li><a href="##">考勤</a></li>
+						<li><a href="##">消息中心</a><i class="headerContainerUlMessage"></i></li>
+						<li><a href="##">采购</a></li>
+						<li><a href="##">审批管理</a></li>
+					</ul>
+					<i class="nav-line"></i>
+				</div>
+				<div class="headerContainText">
+					<img class="headerContainTextImg" src="img/weather/sunnry.jpg"  />
+					<span class="headerContainTextSpanweather">杭州37℃</span>
+					<span class="headerContainTextSpanDate">
+						<!--<input style="background: none;border: 0 none; width: 110px; font-size: 14px; color: #969696;" class="Wdate" type="text" value=" " onclick="WdatePicker({dateFmt:'yyyy年MM月dd日'})" readonly />-->
+						
+					</span>
+					
+					<span class="headerContainTextSpanPhoto"><img src="img/small_01.jpg" /><em></em></span>
+					<ul class="headerContainTextUl" style="display: none;">
+						<li>
+							<a target="_blank" href="baseInfor.html">
+								<i class="headerContainTextUlli01"></i>
+								<span>我的资料</span>
+								<em></em>
+								<span class="headerContainTextUlTop"></span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="changepassword.html">
+								<i class="headerContainTextUlli02"></i>
+								<span>个人设备</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="ownsystem.html">
+								<i class="headerContainTextUlli03"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="SubmitAccount.html">
+								<i class="headerContainTextUlli04"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<i class="headerContainTextUlli05"></i>
+								<span>我的考勤</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##" style="line-height: 31px;">退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="phoneBookInput">
+			<div class="phoneBookInputLeft">
+				<span class="phoneBookInputLeftSpanBack">请选择时间</span>
+				<select>
+					<option>请选择部门</option>
+				</select>
+				<i></i>
+			</div>
+			<div class="phoneBookInputLeft phoneBookInputLeftfalse">
+				<span class="phoneBookInputLeftSpanBack"></span>
+				<input type="text" value="请输入姓名/手机/职位"  />
+				<i></i>
+				<em></em>
+			</div>
+			<div class="phoneBookInputBtn">
+				<input type="button" value="搜索" />
+			</div>
+		</div>
+		<div class="PhoneBookMain">
+			<table>
+				<thead>
+					<tr>
+						<th>姓名</th>
+						<th>花名</th>
+						<th>性别</th>
+						<th>部门</th>
+						<th>职务</th>
+						<th>分机</th>
+						<th>手机</th>
+						<th>QQ</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--<tr>
+						<td>克鲁斯</td>
+						<td>歪果仁_全速</td>
+						<td>男</td>
+						<td>移动智能组</td>
+						<td>视觉设计师</td>
+						<td>15168303589</td>
+						<td>15168303589</td>
+						<td>1036133236</td>
+					</tr>
+					<tr style="background: #f7f8f9;">
+						<td>克鲁斯</td>
+						<td>歪果仁_全速</td>
+						<td>男</td>
+						<td>移动智能组</td>
+						<td>视觉设计师</td>
+						<td>15168303589</td>
+						<td>15168303589</td>
+						<td>1036133236</td>
+					</tr>-->
+				</tbody>
+			</table>
+			<div class="PhoneBookMainPages">
+				<div id="Pagination" class="pagination"><!-- 这里显示分页 --></div>
+				<div id="Searchresult" style="display: block;">分页初始化完成后这里的内容会被替换。</div>
+				<div id="hiddenresult" style="display:none;">
+					<!-- 列表元素 -->
+					<div class="result">第1项内容</div>
+					<div class="result">第2项内容</div>
+					<div class="result">第3项内容</div>
+					<div class="result">第4项内容</div>
+					<div class="result">第5项内容</div>
+					<div class="result">第6项内容</div>
+					<div class="result">第7项内容</div>
+					<div class="result">第8项内容</div>
+				</div>
+			</div>
+		</div>
+		<div class="LastText">
+			<span class="LastTextSpanFirst">杭州全速网络技术有限公司　版本　2015V1.0</span>
+			<span class="LastTextTwo"><a href="##">http://oa.fullspeed.cn/login.asp</a><i>2011-2015 © All Rights Reserved.</i></span>
+		</div>
+		
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.pagination.js"></script>
+		<script src="js/pagejson.js"></script>
+		<script src="js/headerJs.js"></script>
+		<!-<!-[if IE 6]>
+		<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+		<![endif]->
+		<script>DD_belatedPNG.fix('.headerContainTextUlli01,.headerContainTextUlli02,.headerContainTextUlli03,.headerContainTextUlli04,.headerContainTextUlli05')</script>
+		<script>
+			$.ajax({
+				type:"get",
+				url:"json/department.json",
+				dataType:"json",
+				success:function(arr){
+					var html1="";
+					for(var i in arr)
+					{
+						html1+='<option>'+arr[i].depart+'</option>';
+					}
+					$('.phoneBookInputLeft option').after(html1);
+				},
+				error:function(a,b,c)
+				{
+					alert("请稍后重试");
+				}
+			});
+			$('.phoneBookInputLeftfalse input').focus(function(){
+				var inputVal=$.trim($(this).val());
+				if(inputVal=="请输入姓名/手机/职位")
+				{
+					$(this).val('');
+				}
+			});
+			$('.phoneBookInputLeftfalse input').blur(function(){
+				var inputVal=$.trim($(this).val());
+				if(inputVal=="")
+				{
+					$(this).val('请输入姓名/手机/职位');
+				}
+			});
+			$('select').eq(0).change(function(){
+				var peopleVar=$(this).val();
+				$(this).parent().find('span').text(peopleVar);
+			});
+			$.ajax({
+				type:"get",
+				url:"json/phoneInfor.json",
+				dataType:"json",
+				success:function(arr){
+					var html="";
+					for(var i in arr)
+					{
+						if(i%2==0)
+						{
+							html+='<tr><td>'+arr[i].name+'</td><td>'+arr[i].nameOther+'</td><td>'+arr[i].sex+'</td><td>'+arr[i].depart+'</td><td>'+arr[i].job+'</td><td>'+arr[i].phone+'</td>';
+							html+='<td>'+arr[i].phoneMain+'</td><td>'+arr[i].QQNum+'</td></tr>';
+						}
+						else
+						{
+							html+='<tr style="background: #f7f8f9;"><td>'+arr[i].name+'</td><td>'+arr[i].nameOther+'</td><td>'+arr[i].sex+'</td><td>'+arr[i].depart+'</td><td>'+arr[i].job+'</td><td>'+arr[i].phone+'</td>';
+							html+='<td>'+arr[i].phoneMain+'</td><td>'+arr[i].QQNum+'</td></tr>';
+						}
+					}
+					$('.PhoneBookMain tbody').after(html);
+				},
+				error:function(a,b,c)
+				{
+					alert("请稍后重试");
+				}
+			});
+		</script>
+	</body>
+</html>

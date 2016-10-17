@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全速oa展</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"  />
+		<link rel="stylesheet" type="text/css" href="css/companyAd.css"  />
+		<link rel="stylesheet" href="js/lib/pagination.css" />
+		<script src="js/My97DatePicker/WdatePicker.js"></script>
+	</head>
+	<body style="background: #fafafa;">
+		<div class="header">
+			<div class="headerContainer clearfix">
+				<div class="headerContainerImg"></div>
+				<div class="headerContainerPosition">
+					<ul class="headerContainerUl">
+						<li class="currentNode"><a href="##">首页</a></li>
+						<li><a href="##">考勤</a></li>
+						<li><a href="##">消息中心</a><i class="headerContainerUlMessage"></i></li>
+						<li><a href="##">采购</a></li>
+						<li><a href="##">审批管理</a></li>
+					</ul>
+					<i class="nav-line"></i>
+				</div>
+				<div class="headerContainText">
+					<img class="headerContainTextImg" src="img/weather/sunnry.jpg"  />
+					<span class="headerContainTextSpanweather">杭州37℃</span>
+					<span class="headerContainTextSpanDate">
+						<!--<input style="background: none;border: 0 none; width: 110px; font-size: 14px; color: #969696;" class="Wdate" type="text" value=" " onclick="WdatePicker({dateFmt:'yyyy年MM月dd日'})" readonly />-->
+						
+					</span>
+					
+					<span class="headerContainTextSpanPhoto"><img src="img/small_01.jpg" /><em></em></span>
+					<ul class="headerContainTextUl" style="display: none;">
+						<li>
+							<a target="_blank" href="baseInfor.html">
+								<i class="headerContainTextUlli01"></i>
+								<span>我的资料</span>
+								<em></em>
+								<span class="headerContainTextUlTop"></span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="changepassword.html">
+								<i class="headerContainTextUlli02"></i>
+								<span>个人设备</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="ownsystem.html">
+								<i class="headerContainTextUlli03"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="SubmitAccount.html">
+								<i class="headerContainTextUlli04"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<i class="headerContainTextUlli05"></i>
+								<span>我的考勤</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##" style="line-height: 31px;">退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="myleaveNote paidleave">
+			<div class="myleaveNoteMain">
+				<ul class="myleaveNoteMainul">
+					<li class="clearfix">
+						<span class="myleaveNoteMainulleft">审核人:</span>
+						<p class="myleaveNoteMainulleftright">无名</p>
+					</li>
+					<li class="clearfix">
+						<span class="myleaveNoteMainulleft myleaveNoteMainulwidth">开始时间:</span>
+						<div class="myleaveNoteMainulSelect">
+							<input type="text" id="d243" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="Wdate" />
+							<em></em>
+						</div>
+					</li>
+					<li class="clearfix">
+						<span class="myleaveNoteMainulleft myleaveNoteMainulwidth">结算时间:</span>
+						<div class="myleaveNoteMainulSelect">
+							<input type="text" id="d244" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss',minDate:'#F{$dp.$D(\'d243\')}'})" class="Wdate" />
+							<em></em>
+						</div>
+					</li>
+					<li class="clearfix">
+						<span class="myleaveNoteMainulleft myleaveNoteMainulwidth">请假事由:</span>
+						<textarea class="textareaText"></textarea>
+					</li>
+				</ul>
+				<a href="##" class="btnSubmitAskforleave" style="margin-bottom: 20px;">申请调休</a>
+			</div>
+			<div class="paidleaveTime">合计加班时间：<span>506.2</span>小时    合计换休时间：<span>490.5</span>小时   您可换休时间：<span>16</span>小时</div>
+		</div>
+		<div class="AskForLeave">
+			<table>
+				<thead>
+					<tr>
+						<th class="tdEight">请假日期/时间</th>
+						<th class="tdTen">调休事由</th>
+						<th class="tdSix">所用时间</th>
+						<th class="tdSix">审批人</th>
+						<th class="tdSix">审核状态</th>
+						<th class="tdSix">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="tdEight">8月28 09：00 - 8月28 10：00</td>
+						<td class="tdTen companyUlRightBootomTextCurrent">加班需要调休</td>
+						<td class="tdSix"><input class="readonlyText" type="text" readonly="readonly" value="2小时" /></td>
+						<td class="tdSix">陈吕娇</td>
+						<td class="tdSix"><input class="btnShenhe" style="color: #ff0000;" type="button" value="同意" /></td>
+						<td class="tdSix"><input class="btnChange" type="button" value="修改" /></td>
+					</tr>
+					<tr style="background: #f7f8f9;">
+						<td class="tdEight">8月28 09：00 - 8月28 10：00</td>
+						<td class="tdTen companyUlRightBootomTextCurrent">加班需要调休</td>
+						<td class="tdSix"><input class="readonlyText" type="text" readonly="readonly" value="2小时" /></td>
+						<td class="tdSix">陈吕娇</td>
+						<td class="tdSix"><input class="btnShenhe" type="button" value="未审核" /></td>
+						<td class="tdSix"><input class="btnChange" type="button" value="修改" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="PhoneBookMainPages">
+				<div id="Pagination" class="pagination"><!-- 这里显示分页 --></div>
+				<div id="Searchresult" style="display: block;">分页初始化完成后这里的内容会被替换。</div>
+				<div id="hiddenresult" style="display:none;">
+					<!-- 列表元素 -->
+					<!--<div class="result">第1项内容</div>
+					<div class="result">第2项内容</div>
+					<div class="result">第3项内容</div>
+					<div class="result">第4项内容</div>
+					<div class="result">第5项内容</div>
+					<div class="result">第6项内容</div>
+					<div class="result">第7项内容</div>
+					<div class="result">第8项内容</div>-->
+				</div>
+			</div>
+		</div>
+		<div class="LastText">
+			<span class="LastTextSpanFirst">杭州全速网络技术有限公司　版本　2015V1.0</span>
+			<span class="LastTextTwo"><a href="##">http://oa.fullspeed.cn/login.asp</a><i>2011-2015 © All Rights Reserved.</i></span>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/lib/jquery.pagination.js"></script>
+		<script src="js/pagejson.js"></script>
+		<script src="js/headerJs.js"></script>
+		<!-<!-[if IE 6]>
+		<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+		<![endif]->
+		<script>DD_belatedPNG.fix('.headerContainTextUlli01,.headerContainTextUlli02,.headerContainTextUlli03,.headerContainTextUlli04,.headerContainTextUlli05')</script>
+		<script>
+			$.ajax({
+				type:"get",
+				url:"json/AskFor.json",
+				dataType:"json",
+				success:function(arr){
+					var html="";
+					for(var i in arr)
+					{
+						if(i%2==0)
+						{
+							html+='<tr><td class="tdEight">'+arr[i].time+'</td><td class="tdTen companyUlRightBootomTextCurrent">'+arr[i].infor+'</td><td class="tdSix"><input class="readonlyText" type="text" readonly="readonly" value="'+arr[i].longTime+'" /></td><td class="tdSix">'+arr[i].leader+'</td><td class="tdSix"><input class="btnShenhe" type="button" value="未审核" /></td><td class="tdSix"><input class="btnChange" type="button" value="修改" /></td></tr>';	
+						}
+						else
+						{
+							html+='<tr style="background: #f7f8f9;"><td class="tdEight">'+arr[i].time+'</td><td class="tdTen companyUlRightBootomTextCurrent">'+arr[i].infor+'</td><td class="tdSix"><input class="readonlyText" type="text" readonly="readonly" value="'+arr[i].longTime+'" /></td><td class="tdSix">'+arr[i].leader+'</td><td class="tdSix"><input class="btnShenhe" type="button" value="未审核" /></td><td class="tdSix"><input class="btnChange" type="button" value="修改" /></td></tr>';		
+						}
+					}
+					$('.AskForLeave tbody').after(html);
+				},
+				error:function(a,b,c)
+				{
+					alert("请稍后重试");
+				}
+			});
+		</script>
+	</body>
+</html>

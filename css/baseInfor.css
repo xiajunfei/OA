@@ -1,0 +1,42 @@
+.baseInforMain{  width: 1278px;height: auto;border: 1px solid #dcdcdc;background: #fff;margin: 51px auto 50px;}
+.baseInforMainTop{ padding-top: 61px;}
+.baseInforMainTopSpan{width: 11px; height: 22px; background: #4f9cee; display: block; float: left;  margin: 0 18px 0 52px;display: inline;}
+.baseInforMainTopText{color: #4a4a4a; font-size: 22px; float: left; margin-top: -4px;display: inline;}
+.baseInforMainTopXian{background: #e5e5e5; height: 1px; float: left;margin: 12px 60px 0 7px;  display: block; width: 80%; line-height: 0; font-size: 0; display: inline;}
+.baseInforMainBottomLeft{float: left;  width: 301px;  height: 363px;  margin: 55px 75px 85px 51px;}
+.baseInforMainBottomRight{float: left;}
+.baseInforMainBottomRightUl{margin-top: 51px; width: 780px;}
+.baseInforMainBottomRightUl li{  float: left;height: 37px;border-bottom: 1px #cfcfcf dashed; line-height: 37px; width: 390px;}
+.baseInforMainBottomRightUlName{ width: 130px; display: block; float: left;}
+.baseInforMainBottomRightUlNameReal{ width: 260px; display: block; float: left;}
+/**************************/
+.InsertLeft{margin: 40px 0 0 241px;}
+.InsertLeftDl{ float: left; width: 330px; margin-right: 137px;}
+.InsertLeftDl dt{ margin-bottom: 14px;}
+.InsertLeftDldd{ float: left; display: block; color: #4e4e4e; font-size: 15px; width: 90px; line-height: 33px;}
+.InsertLeftDlImg{ float: left; width: 80px; height: 80px; display: block; }
+.InsertLeftDlInput{ background: url(../img/images/insertinfor_text.jpg) no-repeat; width: 238px; height: 33px; float: left; color: #4e4e4e; font-size: 15px;position: relative;}
+.InsertLeftDl dd{ height: 33px; line-height: 33px;margin-bottom: 14px;}
+.InsertLeftDlInputSexText{ width: 210px; padding: 0 14px; height: 100%; border: 0 none; background: none; display: block; line-height: 100%;}
+.InsertLeftUl{ float: left; width: 330px;}
+.InsertLeftUl li{ margin-bottom: 14px; height: 33px;}
+.InsertLeftDlInput i{ background: url(../img/images/ico_bg.jpg) no-repeat; width: 7px; height: 6px; position: absolute; right: 22px; top: 13px;}
+.baseInforMainSave{ display: block;width: 152px; height: 34px; background: #46a7f1; font-size: 16px; color: #fff; text-align: center; line-height: 34px; border-radius: 2px; margin: 65px 0 92px 330px;}
+/*******************************/
+.OwnSystemMain{ width: 425px; height: auto; margin: 87px auto 0;}
+.OwnSystemMainUlSpanText{ float: left; height: 33px; line-height: 33px; font-size: 15px; color: #4e4e4e; width: 65px; text-align: right;}
+.OwnSystemMainUlSpanImg{ float: left; height: 33px; width: 164px; background: url(../img/images/166Bg.jpg) no-repeat; display: block; margin: 0 34px 0 27px;}
+.OwnSystemMainUl li{ height: 33px; width: 100%; margin-bottom: 14px;}
+.OwnSystemMainUlSpanImg input{height: 33px; width: 144px; background: none; border: 0 none; display: block; padding: 0 10px;}
+.OwnSystemMainUlSpanTextLast{ color: #4e4e4e; font-size: 15px; float: left; height: 33px; line-height: 33px; display: block; margin-right: 24px;}
+.OwnSystemMainUlSpanSelectSelect{ background: url(../img/images/topdown_middle.jpg) no-repeat; width: 50px; height: 33px; border: 0 none; display: block; padding-left: 25px;  line-height: 33px;}
+.baseInforMainSaveOwnsystem{ width: 152px; height: 34px; line-height: 34px; text-align: center; display: block; margin: 65px 0 75px 95px;}
+.chengpassword{ width: 340px; margin: 70px auto 0;}
+.chengedpassSave{ width: 152px; height: 34px; text-align: center; background: #46a7f1; line-height: 34px; margin: 60px auto 125px; color: #fff; font-size: 16px; }
+
+.OwnSystemMainUlSpanSelectScrollUp{ background: url(../img/images/xiangshang.jpg) no-repeat; width: 7px; height: 6px; display: block; position: absolute; right:17px; top: 8px;}
+.OwnSystemMainUlSpanSelectScrollDown{ background: url(../img/images/xiangxia.jpg) no-repeat; width: 7px; height: 6px; display: block; position: absolute; right: 17px; top: 16px;}
+.OwnSystemMainUlSpanSelectScroll{ position: relative; float: left;}
+/****************************/
+.bithdayMain{  width: 100%; margin:0 0 0 55px; padding-bottom: 80px;}
+.bithdayMainUL li{ width: 200px; margin:50px 40px 20px 0; _display: inline;}

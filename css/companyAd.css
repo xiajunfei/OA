@@ -1,0 +1,89 @@
+.companyUl{ margin: 22px 60px 0 56px; height: auto;}
+.companyUlSpanImg{ width: 60px; height: 60px; background: url(../img/images/company_bg.jpg) no-repeat; display: block; float: left; margin-right: 15px;}
+.companyUlRight{ float: left; width: 1085px;}
+.companyUlRightTopLeft{ float: left; color: #4a4a4a; font-size: 16px; font-weight: 400;}
+.companyUlRightTopRight{ float: right; color: #4a4a4a; font-size: 12px;}
+.companyUl li{ width: 1163px; border-bottom: 1px dashed #d0d0d0; margin-top: 22px;}
+.companyUlRightBootom{ width: 1070px;height: auto; position: relative; display: block; margin-bottom: 29px; overflow: hidden; }
+.companyUlRightBootomText{ line-height: 32px;font-size: 14px; color: #4a4a4a;  width: 100%; display: block;}/*宽度可以变为1000px*/
+.companyUlRightBootomTable{width:569px;height: 297px; display: block; background: #eee;margin-top: 5px;}
+.companyUlRightBootomTableScroll{display: block; position: absolute; bottom: 0;right: 0px; color: #4f9cee; font-size: 14px; width: 50px; height: 20px;}
+.companyUlRightBootomTableScroll i{ background: url(../img/images/company_Up.jpg) no-repeat; width: 10px; height: 6px; display: block; position: absolute; left: -17px; top: 5px;}
+.companyUlRightBootomTextCurrent{text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.companyUlRightBootomTableAll i{ background: url(../img/images/company_down.jpg) no-repeat; width: 10px; height: 7px; display: block; position: absolute; right: -15px; top: 5px;}
+.companyUlRightBootomTableAll{color: #4f9cee; font-size: 14px; display: block; position: absolute; top: 6px; right: 15px;}
+.companyUlPages{ height: 94px; width: 100%;}
+.companyUlRightIco i{ background: url(../img/images/company_ico.jpg) no-repeat; width: 13px; height: 15px; position: absolute; left: 8px; top: 4px;}
+.companyUlRightIco{ position: relative; float: left;}
+.companyUlRightBootomTable th,.companyUlRightBootomTable td{width: 80px; height: 41px; color: #000; font-size: 16px; text-align: center; line-height: 41px; border: 1px solid #000;}
+.companyUlRightBootomTableRGB{ background: #ff6600;}
+.companyUlRightBootomTableRGBOther{ background: #ffff00;}
+.companyUlRightBootomTable table,.PhoneBookMain table{ border-collapse: collapse;}/*边框的塌陷*/
+/***************************/
+.PhoneBookMain,.AskForLeave{ width: 1280px; height: auto; background: #ffffff; margin: 45px auto 0;}
+.PhoneBookMain th,.PhoneBookMain td{ width: 153px; height: 40px; text-align: center; line-height: 40px;}
+.PhoneBookMain th{color: #292929; font-size: 16px; }
+.PhoneBookMain td{color: #484848; font-size: 12px; }
+.PhoneBookMain table{ margin-left:27px ;}
+.PhoneBookMain thead{ background: #f6f6f6; padding-left: 27px;border-bottom: 1px solid #dcdcdc;}
+.PhoneBookMain tbody tr{border-bottom: 1px solid #eeeff0;}
+.phoneBookInput{ width: 870px; height: 43px; margin: 52px auto 0;}
+.phoneBookInputLeft{ width: 308px; height: 43px; position: relative; float: left;}
+.phoneBookInputLeft input{ width: 240px; height: 100%; background: none; border: 0 none; padding-left: 28px; color: #969696; font-size: 14px; padding-right: 40px; position: absolute; left: 0; top: 0;}
+.phoneBookInputLeft i{ background: url(../img/images/down_ico.jpg) no-repeat; width: 15px; height: 8px; display: block; position: absolute; right: 21px; top: 50%; margin-top: -4px;}
+.phoneBookInputLeftSpanBack{width: 308px; height: 43px; background: url(../img/images/phone_input.jpg) no-repeat; position: absolute; left: 0; top: 0; line-height: 43px; text-align: center;}
+.phoneBookInputLeftfalse i{ background: url(../img/images/xx.jpg) no-repeat; width: 16px; height: 16px; margin-top: -8px;}
+.phoneBookInputLeftfalse em{ background: url(../img/images/fangdajing.jpg) no-repeat; width: 17px; height: 17px; display: block; position: absolute; left: 14px; top: 50%; margin-top: -8px;}
+.phoneBookInputLeftfalse input{ padding-left: 42px; width: 226px;}
+.phoneBookInputLeftfalse{ margin-left: 28px;}
+.phoneBookInputBtn{ width: 98px; height: 43px; background: #46a7f1; float: left; margin-left: 24px;}
+.phoneBookInputBtn input{ width: 100%; height: 100%; background: none; border: 0 none;color: #fff;font-size: 16px; border-radius: 3px; text-align: center; line-height: 100%;}
+.phoneBookInputLeft select{width: 308px; height: 100%; background: none; border: 0 none; padding-left: 28px; color: #969696; font-size: 14px; opacity: 0; filter: alpha(opacity=0);}
+.PhoneBookMainPages{ width: 100%; height: 69px;}
+/*************************/
+.submitBtn{ width: 322px; height: 34px; margin: 30px auto 100px;}
+.submitBtnSpan{ width:152px;height: 100%; display: block; background: #46a7f1; color: #fff; font-size: 16px; float: left; text-align: center; line-height: 34px;}
+.btnAgree input{ width: 60px; height: 21px; background: #e5e5e5; color: #484848; font-size: 12px; border-radius: 3px; margin-right: 30px;}
+.readonlyText{ width: 59px;height: 19px; border: 1px solid #dcdcdc; border-radius: 2px; color: #484848; font-size: 12px; text-align: center; line-height: 19px;}
+.AskForLeave th,.AskForLeave td{ display: block; float: left;}
+.tdOne{ width: 180px;}
+.tdTwo{ width: 190px; margin-right: 38px;}
+.tdEight{ width: 330px;}
+.tdThree{ width: 150px;}
+.tdFour{ width: 134px;}
+.tdfourother{width: 136px;}
+.tdTen{ width: 285px;}
+.tdFive{ width: 100px;}
+.tdSix{ width: 165px;}
+.tdSeven{ width: 270px; padding-right: 48px;}
+.tdshiyi{ width: 280px;}
+.tdshisan{ width: 56px;}
+.tdshisi{ width: 240px;}
+.tdshiwu{ width:90px;}
+.tdshisi input{ color: #bfbfbf;}
+.AskForLeave thead{ background: #f6f6f6; height: 40px; border-bottom: 1px solid #d1d1d1; display: block; color: #292929; font-size: 16px; text-align: center; line-height: 40px;}
+.AskForLeave tr{ color: #484848; font-size: 12px; height: 40px; line-height: 40px; text-align: center; border-bottom: 1px solid #eaebec; display: block;}
+/***********************/
+.myleaveNote{ width: 1280px; margin: 66px auto 0;height: 408px; background: url(../img/images/askforleave.jpg) no-repeat;}
+.myleaveNoteMain{ width: 678px;height: auto; border:1px solid #dcdcdc; margin-left:600px ; background: #fff; padding-bottom: 20px;}
+.myleaveNoteMainulleft{ display: block; width: 115px; float: left; text-align: right; margin-right: 22px; color: #4e4e4e; font-size: 15px;}
+.myleaveNoteMainulleftright{ display: block; float: left;color: #4e4e4e; font-size: 15px;}
+.myleaveNoteMainul li{ margin-top: 15px;}
+.myleaveNoteMainul{ padding-top: 25px;}
+.myleaveNoteMainulSelect{ width: 236px; height: 31px; border: 1px solid #dcdcdc; float: left; position: relative; border-radius: 3px; position: relative;}
+.myleaveNoteMainulSelect select,.myleaveNoteMainulSelect input{ background: none; border: 0 none; width: 224px; height: 100%;color: #4e4e4e; font-size: 15px;line-height: 31px; padding-left: 12px;}
+.myleaveNoteMainulSelect i{ background: url(../img/images/down_ico.jpg) no-repeat; position: absolute;right: 17px; top: 50%;width: 15px;height: 8px; margin-top: -4px;}
+.myleaveNoteMainulwidth{ height: 33px; line-height: 33px;}
+.myleaveNoteMainulSelect em{ background: url(../img/images/date.jpg) no-repeat; width: 18px; height: 17px; position: absolute; right: 15px; top: 50%; margin-top: -9px;}
+.textareaText{ width: 284px; height: 56px; border: 1px solid #dcdcdc; border-radius: 3px;color: #4e4e4e; font-size: 15px; padding-left: 12px;}
+.spanText{ position: absolute; left: 12px; top: 50%;font-size: 15px; color: #a0a0a0; margin-top: -10px;}
+.btnSubmitAskforleave{ width: 152px; height: 34px; background: #46a7f1; color: #fff; font-size: 16px; text-align: center; line-height: 34px; margin: 19px 0 0 138px;  border: 0 none;}
+.btnShenhe{ background: none; border:0 none; color: #707070; font-size: 12px;}
+.AskForLeave td{ text-align: center;}
+.btnChange{background: none; border:0 none; color: #0087cf; font-size: 12px;}
+/***************************/
+.paidleave{ background: url(../img/images/diaoxiu.jpg) no-repeat;}
+.paidleaveTime{ margin-left: 600px; color: #4e4e4e;font-size: 14px; margin-top: 50px;}
+.paidleaveTime span{ color: #e50000;}
+/*****************/
+.workmore{ background: url(../img/images/workmore.jpg) no-repeat; height: 422px;}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全速oa展</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"  />
+		<link rel="stylesheet" type="text/css" href="css/baseInfor.css"  />
+		<script src="js/My97DatePicker/WdatePicker.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerContainer clearfix">
+				<div class="headerContainerImg"></div>
+				<div class="headerContainerPosition">
+					<ul class="headerContainerUl">
+						<li class="currentNode"><a href="##">首页</a></li>
+						<li><a href="##">考勤</a></li>
+						<li><a href="##">消息中心</a><i class="headerContainerUlMessage"></i></li>
+						<li><a href="##">采购</a></li>
+						<li><a href="##">审批管理</a></li>
+					</ul>
+					<i class="nav-line"></i>
+				</div>
+				<div class="headerContainText">
+					<img class="headerContainTextImg" src="img/weather/sunnry.jpg"  />
+					<span class="headerContainTextSpanweather">杭州37℃</span>
+					<span class="headerContainTextSpanDate">
+						<!--<input style="background: none;border: 0 none; width: 110px; font-size: 14px; color: #969696;" class="Wdate" type="text" value=" " onclick="WdatePicker({dateFmt:'yyyy年MM月dd日'})" readonly />-->
+						
+					</span>
+					
+					<span class="headerContainTextSpanPhoto"><img src="img/small_01.jpg" /><em></em></span>
+					<ul class="headerContainTextUl" style="display: none;">
+						<li>
+							<a target="_blank" href="baseInfor.html">
+								<i class="headerContainTextUlli01"></i>
+								<span>我的资料</span>
+								<em></em>
+								<span class="headerContainTextUlTop"></span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="changepassword.html">
+								<i class="headerContainTextUlli02"></i>
+								<span>个人设备</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="ownsystem.html">
+								<i class="headerContainTextUlli03"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="SubmitAccount.html">
+								<i class="headerContainTextUlli04"></i>
+								<span>我的报销</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<i class="headerContainTextUlli05"></i>
+								<span>我的考勤</span>
+								<em></em>
+							</a>
+						</li>
+						<li>
+							<a href="##" style="line-height: 31px;">退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="baseInforMain">
+			<div class="baseInforMainTop clearfix">
+				<span class="baseInforMainTopSpan"></span>
+				<span class="baseInforMainTopText">基本信息</span>
+				<span class="baseInforMainTopXian"></span>
+			</div>
+			<div class="InsertLeft clearfix">
+				<dl class="InsertLeftDl">
+					<dt class="clearfix">
+						<span class="InsertLeftDldd">当前头像:</span>
+						<span class="InsertLeftDlImg"><img src="img/small_111.jpg"  /></span>
+					</dt>
+					<dd>
+						<span class="InsertLeftDldd">姓&nbsp;&nbsp;&nbsp;名:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">身份证:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">性&nbsp;别:</span>
+						<span class="InsertLeftDlInput" style="background: none;">
+							<input class="InsertLeftDlInputSex" type="radio" name="sex" /><span>男</span>
+							<input class="InsertLeftDlInputSex" type="radio" name="sex" checked="checked" /><span>女</span>
+						</span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">籍&nbsp;贯:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">生&nbsp;日:</span>
+						<span class="InsertLeftDlInput">
+							<input style="background: none; width: 220px; height: 33px; border: 0 none; padding-left: 18px; margin-right: 2px;" type="text" id="d247" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy年MM月dd日'})" class="Wdate"/>
+							<i></i>
+						</span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">居住地:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">家&nbsp;乡:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+					<dd>
+						<span class="InsertLeftDldd">爱&nbsp;好:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</dd>
+				</dl>
+				<ul class="InsertLeftUl">
+					<li>
+						<span class="InsertLeftDldd">微信号:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">支付宝:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">旺&nbsp;旺:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">Q&nbsp;Q:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">邮&nbsp;箱:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">分&nbsp;机:</span>
+						<span class="InsertLeftDlInput"><input class="InsertLeftDlInputSexText" type="text" /></span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">职&nbsp;务:</span>
+						<span class="InsertLeftDlInput">
+							<select class="InsertLeftDlInputSexText" style="width: 238px;">
+								<option value="">员工</option>
+								<option value="">经理</option>
+								<option value="">HR</option>
+							</select>
+						</span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">部&nbsp;门:</span>
+						<span class="InsertLeftDlInput">
+							<select class="InsertLeftDlInputSexText" style="width: 238px;">
+								<option value="">董事会</option>
+								<option value="">行政部</option>
+								<option value="">开发部</option>
+								<option value="">技术部</option>
+								<option value="">设计部</option>
+							</select>
+						</span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">入职时间:</span>
+						<span class="InsertLeftDlInput" style="background: none;">
+							<input style="background: url(img/images/topdown.jpg) no-repeat; width: 58px; height: 26px; border: 0 none; padding-left: 16px; margin-right: 2px;" type="text" id="d243" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy'})" class="Wdate"/><span>年</span>
+							<input style="background: url(img/images/topdown_small.jpg) no-repeat; width: 42px; height: 26px; border: 0 none; padding-left: 10px; margin-right: 2px;" type="text" id="d244" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'MM'})" class="Wdate"/><span>月</span>
+							<input style="background: url(img/images/topdown_small.jpg) no-repeat; width: 42px; height: 26px; border: 0 none; padding-left: 10px; margin-right: 2px;" type="text" id="d245" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'dd'})" class="Wdate"/><span>日</span>
+						</span>
+					</li>
+					<li>
+						<span class="InsertLeftDldd">转正时间:</span>
+						<span class="InsertLeftDlInput" style="background: none;">
+							<input style="background: url(img/images/topdown.jpg) no-repeat; width: 58px; height: 26px; border: 0 none; padding-left: 16px; margin-right: 2px;" type="text" id="d246" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy',minDate:'#F{$dp.$D(\'d243\')}'})" class="Wdate"/><span>年</span>
+							<input style="background: url(img/images/topdown_small.jpg) no-repeat; width: 42px; height: 26px; border: 0 none; padding-left: 10px; margin-right: 2px;" type="text" id="d246" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'MM',minDate:'#F{$dp.$D(\'d244\')}'})" class="Wdate"/><span>月</span>
+							<input style="background: url(img/images/topdown_small.jpg) no-repeat; width: 42px; height: 26px; border: 0 none; padding-left: 10px; margin-right: 2px;" type="text" id="d246" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'dd',minDate:'#F{$dp.$D(\'d245\')}'})" class="Wdate"/><span>日</span>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<span class="baseInforMainSave">保存</span>
+		</div>
+		<div class="LastText">
+			<span class="LastTextSpanFirst">杭州全速网络技术有限公司　版本　2015V1.0</span>
+			<span class="LastTextTwo"><a href="##">http://oa.fullspeed.cn/login.asp</a><i>2011-2015 © All Rights Reserved.</i></span>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/headerJs.js"></script>
+		<!-<!-[if IE 6]>
+		<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+		<![endif]->
+		<script>DD_belatedPNG.fix('.headerContainTextUlli01,.headerContainTextUlli02,.headerContainTextUlli03,.headerContainTextUlli04,.headerContainTextUlli05')</script>
+	</body>
+</html>

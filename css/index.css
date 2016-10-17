@@ -1,0 +1,136 @@
+body,a,li,ul,div,span,dl,dd,dt,p,i,em,h1,h2,h3,h4,h5,h6,img,table,thead,th,tr,td,strong,tbody{ margin: 0; padding: 0;}
+li{ list-style: none;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+a{ text-decoration: none;}
+input,select{ outline: none;}
+body{ background: #f1f1f1; font-family: "方正兰亭黑","微软雅黑"; font-size: 14px; color: #969696;}
+/*******header******/
+.header{ width: 100%; height: auto; margin: 0 auto; background: #fff;}
+.headerContainer{ width: 1280px; height: auto; margin: 0 auto;}
+.headerContainerImg{ float: left; background: url(../img/main/logo.jpg) no-repeat; width: 265px; height: 44px; margin:30px 32px 25px 1px;}
+.headerContainerUl li{ float: left; width: 65px; height: 29px;  line-height: 29px; position: relative; text-align: center; margin-right: 20px;}
+.headerContainerPosition{position: relative;margin: 40px 0 30px; float: left;}
+.nav-line{ position: absolute; left: 0; bottom:-2px;  width: 70px; height: 2px; background: #abddf0; font-size: 0; line-height: 0;}
+.headerContainerUl li a{ color: #969696; font-size: 16px; }
+.headerContainerUlMessage{ background: url(../img/main/headerRed.jpg) no-repeat; width: 6px; height: 6px; position: absolute; top: 4px; right: 6px;}
+.headerContainText{ float: right; height: 27px; margin-top: 40px; position: relative;}
+.headerContainTextImg{ float: left; width: 21px; height: 22px;margin: 3px 8px 0 0;}
+.headerContainTextSpanweather,.headerContainTextSpanDate,.headerContainTextSpanWeek{ float: left; line-height: 27px; display: block; color: #969696;}
+.headerContainTextSpanDate{ margin: 0 7px 0 5px;}
+.headerContainTextSpanWeek{ margin-right: 10px;}
+.headerContainTextSpanPhoto{ float: left; width: 24px; height: 50px; position: relative;}
+.headerContainTextSpanPhoto img{ width: 24px; height: 24px;}
+.headerContainTextSpanPhoto em{ display: block; background: url(../img/main/header_down.jpg) no-repeat; width: 6px; height: 3px; position: absolute;right: -10px; top: 10px;}
+.headerContainTextUl{ width: 131px; height: auto; border: 1px solid #dedede; border-radius: 5px; position: absolute; right: -20px; top: 47px; z-index: 99; background: #fff; padding: 4px 0 2px 0;}
+.headerContainTextUl li{ width: 100%; }
+.headerContainTextUlTop{ background: url(../img/images/small_top.jpg) no-repeat;width: 13px; height: 8px; right: 22px; top: -12px; position: absolute;}
+.headerContainTextUl li em{ border-bottom: 1px solid #ededed; width: 88px; position: absolute; left: 14px; top: 31px; font-size: 0; line-height: 0;}
+.headerContainTextUl li i{position: absolute;top: 14px; left:16px;display: block; width: 11px; height: 11px; font-size: 0; line-height: 0;}
+.headerContainTextUl li a{width: 100%;color: #969696;  display: block;height: 31px; position: relative;text-align: center;font-size: 12px;line-height: 31px;}
+.headerContainTextUl li h4{ padding-top: 13px;  font-weight: 400;}
+.loginOut{ text-align: center; display: inline-block;}
+.headerContainTextUl li a:hover{color: #fff;background: #4aaaec;}
+.headerContainTextUl a:hover .headerContainTextUlli01{ background: url(../img/images/small_people_white.png) no-repeat;}
+.headerContainTextUlli01{ background: url(../img/images/small_01.png) no-repeat;}
+.headerContainTextUl a:hover .headerContainTextUlli02{ background: url(../img/images/small_clock_white.png) no-repeat;}
+.headerContainTextUlli02{ background: url(../img/images/small_02.png) no-repeat;}
+.headerContainTextUl a:hover .headerContainTextUlli03{ background: url(../img/images/small_Tv_white.png) no-repeat;}
+.headerContainTextUlli03{ background: url(../img/images/small_03.png) no-repeat;}
+.headerContainTextUl a:hover .headerContainTextUlli04{ background: url(../img/images/small_money_white.png) no-repeat;}
+.headerContainTextUlli04{ background: url(../img/images/small_04.png) no-repeat;}
+.headerContainTextUl a:hover .headerContainTextUlli05{ background: url(../img/images/small_shoubiao_white.png) no-repeat;}
+.headerContainTextUlli05{ background: url(../img/images/small_05.png) no-repeat;}
+/**********topnav***************/
+.topnav{ width: 100%; height: 511px; position: relative; overflow: hidden; z-index: 50;}
+.topnavBackground{ width: 2560px; height: 511px; position: absolute; left: 50%; top: 50%; margin-top: -255.5px; margin-left: -1280px;}/*IE6不兼容border-radius：50%；必须是具体的数字*/
+.topnavBackgroundPeople{ width: 200px; height: 200px; background: #b6b5b8; border-radius: 50%; position: absolute; left: 50%; top: 50%; margin-top: -100px; margin-left: -100px; border: 2px solid #dcdbdc; 
+-moz-border-radius: 100px; -webkit-border-radius: 100px;behavior: url(ie-css3.htc); z-index: 220;
+}/*behavior: url(../PIE-1.0.0/pie.htc);*/
+.topnavBackgroundPeople img{ width: 193px; height: 193px; position: absolute; left: 50%; top: 50%; margin-left: -96.5px; margin-top: -96.5px;}
+.topnavName{ font-size: 24px; color: #FFFFFF; position: relative; display: block; padding-top: 372px;text-align: center; font-weight: 400;}
+.topnavName img{ margin: 9px 0 0 6px; width: 16px; height: 16px;}
+.topnavSex{ width: 16px; height: 16px; position: absolute;top: 6px; right: -25px;display: block;}
+.topnavinfor{ color: #fff;font-size: 15px; position: relative;  margin-top: 4px; text-align: center;display: block;}
+.topnavright{ width: 1280px; height: auto; position: absolute; left: 50%; margin-left: -640px; top: 17px;}
+.topnavRightall{ background: url(../img/main/all.png) no-repeat; width: 84px; height: 21px; position: absolute; right: 63px;top: 0; line-height: 21px; text-align: center;  color: #fff; }
+.topnavRightleft{ background: url(../img/main/left.png) no-repeat; width: 21px; height: 21px; position: absolute; top: 0; right: 32px;}
+.topnavRightright{ background: url(../img/main/right.png) no-repeat; width: 21px; height: 21px;  position: absolute; right: 4px; top: 0;}
+.topnavBotomMain{ width: 1280px; height: auto; position: absolute; left: 50%;margin-left: -640px; top: 15px;}
+.topnavBottom{ width: 401px; height: auto; position: absolute; top: 55px; right: 1px;
+filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7F565656', endColorstr='#7F565656');background:rgba(86,86,86,.5); 
+/*-pie-background:rgba(86,86,86,.5);*/}
+.topnavUl{ margin:20px 0 0 9px;}
+.topnavUl li{ float: left; width: 76px; height: auto;  color: #fff; text-align: center;}
+.topnavUl img{ width: 59px; height: 59px; }
+.topnavUl li p{ margin: 9px 0 17px;}
+.topnavBottomNav{ color: #fff;  text-align: center; padding-top: 20px; display: block;}
+.topnavBottom i{ background: url(../img/main/top.png) no-repeat;width: 15px; height: 7px; position: absolute; top: -7px; right: 97px;font-size: 0px; line-height: 0px;}
+.topnavBottom em{ background: url(../img/main/x.png) no-repeat; width: 16px; height: 15px; position: absolute; right: 13px; top: 11px; display: block; font-size: 0px; line-height: 0px;}
+/***************fiveInfor*****************/
+.fiveInfor{ width: 1285px; height: auto; margin: 0 auto; overflow: hidden;}
+.fiveInforUl{ margin: 4px 0 9px;}
+.fiveInforUl li{ width:257px;height: 183px; float: left;}
+.li01{ background: url(../img/images/work.jpg) no-repeat; display: block; height: 100%;}
+.li02{ background: url(../img/images/xiuxi.jpg) no-repeat; height: 100%; display: block;}
+.li03{ background: url(../img/images/fly.jpg) no-repeat; height: 100%; display: block;}
+.li04{ background: url(../img/images/monry.jpg) no-repeat; height: 100%; display: block;}
+.li05{ background: url(../img/images/phoneBook.jpg) no-repeat; height: 100%; display: block;}
+.li01:hover{background: url(../img/images/work_white.jpg) no-repeat;}
+.li02:hover{background: url(../img/images/xiuxi_white.jpg) no-repeat;}
+.li03:hover{background: url(../img/images/fly_white.jpg) no-repeat;}
+.li04:hover{background: url(../img/images/money_white.jpg) no-repeat;}
+.li05:hover{background: url(../img/images/phoneBook_white.jpg) no-repeat;}
+/***********mainPeople*************/
+.mainPeople{ width: 1280px; height: auto; margin: 0 auto 12px; background: url(../img/main/bg.jpg) #fff no-repeat; overflow: hidden;}
+.mainPeopleOtherName{ font-size: 18px; color: #545454; text-align: center;}
+.mainPeopleName{ color: #3ea1ee; font-size: 28px; text-align: center; display: block; font-weight: 400; padding-top: 65px;}
+.mainPeopleText{ color: #969696; font-size: 18px; text-align: center; display: block; margin-top: 17px; padding-bottom: 72px;}
+.mainPeopleText em{ color: #3ea1ee; font-size: 21px; font-style: normal;}
+.mainPeopleOne{ width:33.3%;height: auto; float: left;}
+.mainPeopleOneImg{ background: url(../img/images/ball_01.jpg) no-repeat; width: 210px; height: 210px; margin: 0 auto;}
+.mainPeopleTwoImg{ background: url(../img/images/ball_02.jpg) no-repeat;}
+.mainPeopleThreeImg{background: url(../img/images/ball_03.jpg) no-repeat;}
+.mainPeopleOneImg h5{color: #969696; font-size: 18px;display: block;text-align: center;padding-top: 60px; }
+.mainPeopleOneImg strong{ color: #45e0ce; font-size: 36px; display: block;text-align: center;}
+.mainPeopleOneImg em{ font-size: 18px; color: #45e0ce;display: block;text-align: center; font-style: normal;}
+.mainPeopleOneTextSpan{ text-align: center; display: block; font-size: 18px; color: #969696; margin-top: 13px;}
+.mainPeopleOneBgAdd{ background: url(../img/main/bg_ball.jpg) no-repeat; width: 103px; height: 32px;text-align: center; line-height: 32px;  font-size: 18px; position: relative; margin: 13px auto 0;}
+.mainPeopleOneBgAdd a{color: #3ea1ee;}
+.mainPeopleOneBgAdd i{background: url(../img/images/+.jpg) no-repeat; width: 10px; height: 10px; display: block; position: absolute; top: 50%; margin-top: -5px; right:-13px;}
+.mainPeopleLeftRight{ color: #7d7d7d; margin: 61px 38px 0 38px; border-bottom: 1px solid #eeeeee;}
+.mainPeopleLeft{ display: block; float:left ;font-size: 14px; margin-bottom: 7px;}
+.mainPeopleRight{ display: block; float: right; font-size: 12px; color: #7d7d7d;}
+.mainBirthday{ margin: 19px 38px 23px; width: 100%; overflow: hidden;}
+.mainBirthdayul{ width: 110%;}
+.mainBirthdayul li{ float: left;width: 210px;font-size: 12px;}
+.mainBirthdayul img{ float: left;}
+.mainBirthdayText{ float: left; margin-left: 9px;_display:inline;}
+.mainBirthdayText h5{ color: #595959; margin-top: 14px;}
+.mainBirthdayText a{ color: #3ea1ee;}
+.mainBirthdayText span{ color: #5a5a5a;}
+/*****************/
+.IndexInfor{ width:1280px;margin: 0 auto 65px; height: auto; overflow: hidden;}
+.IndexInforLeft{ width: 634px; height: auto; float: left; background: #fff;}
+.IndexInforRight{ width: 634px; height: auto; float: right; background: #fff;}
+.IndexInforLeftTop{ padding-top: 38px; position: relative; margin-bottom: 22px;}
+.IndexInforLeftTop h4{ margin-left: 52px; display: block; color: #3ea1ee; font-size: 20px; font-weight: 400; float: left; _display: inline;}
+.IndexInforLeftTop i{ width: 2px; height: 16px; background: #3ea1ee; display: block; position: absolute;left: 40px; top: 45px; float: left; _display: inline;}
+.IndexInforLeftTop img{ float: left; margin: 14px 0 0 3px; _display: inline;}
+.IndexInforLeftUl{ margin: 0 21px 0 38px; padding-top: 13px;border-top-color: #ebebeb; border-top-style: solid; border-top-width: 100%; }
+.IndexInforLeftUl ul{ width: 100%;}
+.IndexInforLeftUl li{height: 30px;}
+.IndexInforLeftUl li a{ color: #969696; font-size: 14px; line-height: 30px;position: relative;}
+.IndexInforLeftUl i{ width: 2px; height: 3px; background: #969696; position: absolute; top: 12px; left:0; font-size: 0; line-height: 0;}
+.IndexInforLeftUl li h6,.IndexInforLeftUl li h5{font-size: 14px; color: #969696;font-weight: 400;  line-height: 30px;}
+.IndexInforLeftUl li h5{ float: left; margin-left: 12px; _display: inline;}
+.IndexInforLeftUl li h6{ float: right;}
+.IndexInforLeftUl li a:hover,.IndexInforLeftUl li a:hover h6,.IndexInforLeftUl li a:hover h5{color: #3ea1ee; cursor: pointer;}
+.IndexInforLeftUl li a:hover i{background: #3ea1ee;}
+.more{ background: url(../img/main/bg_ball_small.jpg) no-repeat; width: 56px; height: 23px; color: #3ea1ee; font-size: 14px; text-align: center; line-height: 23px; margin: 16px 0 30px; float: right;}
+/********************************/
+.LastText{ background: #e7e7e7; height: 93px; width: 100%; margin-top: 100px; }
+.LastTextSpanFirst{ width: 100%; text-align: center; color: #a8a8a8; display: block; padding-top: 35px;}
+.LastTextTwo a,.LastTextTwo i{ color: #a8a8a8; font-size: 14px; font-style: normal;}
+.LastTextTwo{ display: block; text-align: center; margin-top: 5px;}
